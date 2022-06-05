@@ -1,0 +1,30 @@
+﻿{
+  "name": "myvr",
+  "description": "myvr",
+  "keywords": [
+    "myvr"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "ef17ce4c-190a-4c32-84c2-b505b009dd15",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/nub",
+      "required": true
+    }
+  },
+  "website": "https://github.com/cdur8935hfjkACFefh/ghetj54k",
+  "repository": "https://github.com/cdur8935hfjkACFefh/ghetj54k",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
